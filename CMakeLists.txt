@@ -11,4 +11,4 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 
 file(GLOB SOURCES "./*.cpp")
-add_executable(AAL ${SOURCES})
+add_executable("$(PROJECT_NAME)" ${SOURCES})

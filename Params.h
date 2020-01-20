@@ -29,4 +29,13 @@ static const class Params {
 			widthStandDiviation = 5;
 			peopleCount = PeopleCount;
 		}
+		Params(int PeopleCount, int MaleHeight, int MaleWidth, int FemaleHeight, int FemaleWidth) {
+			maleHeight = MaleHeight;
+			maleWidth = MaleWidth;
+			femaleHeight = FemaleHeight;
+			femaleWidth = FemaleWidth;
+			heightStandDiviation = 8;
+			widthStandDiviation = 5;
+			peopleCount = PeopleCount;
+		}
 };
