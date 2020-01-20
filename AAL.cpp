@@ -1,5 +1,8 @@
 ﻿// AAL.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
 //
+//Autor: Przemysław Bedełek
+
+//Nazwa projektu: AAL-6-LS vururuk
 
 #include <iostream>
 #include <vector>

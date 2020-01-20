@@ -1,3 +1,6 @@
+//Autor: Przemys³aw Bede³ek
+
+//Nazwa projektu: AAL-6-LS vururuk
 #pragma once
 class Person
 {

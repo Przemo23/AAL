@@ -1,3 +1,6 @@
+//Autor: Przemys³aw Bede³ek
+
+//Nazwa projektu: AAL-6-LS vururuk
 int main();
 int chooseMode();
 void execMode1(vector<Person>& males, vector<Person>& females, Params& params);
