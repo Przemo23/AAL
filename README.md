@@ -1,5 +1,5 @@
 ## AAL
- - projekt
+
 Autor: Przemysław Bedełek
 
 Nazwa projektu: AAL-6-LS vururuk
