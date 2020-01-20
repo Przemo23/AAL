@@ -41,13 +41,13 @@ Na sam koniec zostanie zaprezentowana informacja, o tym czy udało się sparowa�
 plemienia, ile par udało sie "zeswatać" i czasy wykonania poszczególnych części algorytmu.
 
 Opis plików źródłowych:
-	AAL.cpp, AAL.h - plik zawierający funkcję main programu, w której jest zawarta cała
-	komunikacja z użytkownikiem odnośnie wyboru trybu wykonania i prezentacja wyników
-	Graph.cpp, Graph.h - pliki zawierającą klasę grafu dwudzielnego i algorytmu Hopcrofta-Karpa.
-	Person.cpp - plik zawierający klasę osoby, która zawiera pola: płeć, wzrost, obwód głowy, indeks.
-	Node.cpp, Node.h, RankingTree.cpp, RankingTree.h - nieużywane - pliki zawierające implementację drzewa obsługującego
-	zapytania odnośnie rangi mężczyzn względem kobiet.
-	Params.h - plik zawierający klasę z parametrami losowego generowania danych
+AAL.cpp, AAL.h - plik zawierający funkcję main programu, w której jest zawarta cała
+komunikacja z użytkownikiem odnośnie wyboru trybu wykonania i prezentacja wyników
+Graph.cpp, Graph.h - pliki zawierającą klasę grafu dwudzielnego i algorytmu Hopcrofta-Karpa.
+Person.cpp - plik zawierający klasę osoby, która zawiera pola: płeć, wzrost, obwód głowy, indeks.
+Node.cpp, Node.h, RankingTree.cpp, RankingTree.h - nieużywane - pliki zawierające implementację drzewa obsługującego
+zapytania odnośnie rangi mężczyzn względem kobiet.
+Params.h - plik zawierający klasę z parametrami losowego generowania danych
 
 Konwencja zapisu danych w pliki
 W pierwszym trybie wykonania program odczytuje dane z plików "males.txt" i "females.txt", które znajdują
