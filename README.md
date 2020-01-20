@@ -1,65 +1,66 @@
 ## AAL
  - projekt
-Autor: Przemys³aw Bede³ek
+Autor: PrzemysÅ‚aw BedeÅ‚ek
 
 Nazwa projektu: AAL-6-LS vururuk
-Jêzyk implementacji: C++
-Treœæ zadania:
-W wiosce plemienia Vururuk co 10 lat odbywaj¹ siê masowe œluby ma³¿eñskie.
-Wszystkie pe³noletnie panny i pe³noletni kawalerowie stawiaj¹ siê przed rad¹ starszych, 
-która dokonuje swatania w sposób zgodny z wielowiekow¹ tradycj¹ plemienia. 
-Po pierwsze, m¹¿ musi mieæ wiêkszy wzrost i wiêkszy obwód g³owy ni¿ ¿ony. 
-Po drugie, ka¿da panna i ka¿dy kawaler musi znaleŸæ ma³¿onka. 
-Po trzecie, ³¹czna suma ró¿nic wzrostów i obwodów g³ów ma³¿onków w ca³ym plemieniu 
-ma byæ jak najmniejsza. W przypadku niemo¿noœci spe³nienia dwóch pierwszych warunków, 
-proces swatania koñczy siê niepowodzeniem i jest odraczany na nastêpne 10 lat. 
-Nale¿y pomóc radzie starszych przeprowadziæ proces swatania.
+JÄ™zyk implementacji: C++
+TreÅ›Ä‡ zadania:
+W wiosce plemienia Vururuk co 10 lat odbywajÄ… siÄ™ masowe Å›luby maÅ‚Å¼eÅ„skie.
+Wszystkie peÅ‚noletnie panny i peÅ‚noletni kawalerowie stawiajÄ… siÄ™ przed radÄ… starszych, 
+ktÃ³ra dokonuje swatania w sposÃ³b zgodny z wielowiekowÄ… tradycjÄ… plemienia. 
+Po pierwsze, mÄ…Å¼ musi mieÄ‡ wiÄ™kszy wzrost i wiÄ™kszy obwÃ³d gÅ‚owy niÅ¼ Å¼ony. 
+Po drugie, kaÅ¼da panna i kaÅ¼dy kawaler musi znaleÅºÄ‡ maÅ‚Å¼onka. 
+Po trzecie, Å‚Ä…czna suma rÃ³Å¼nic wzrostÃ³w i obwodÃ³w gÅ‚Ã³w maÅ‚Å¼onkÃ³w w caÅ‚ym plemieniu 
+ma byÄ‡ jak najmniejsza. W przypadku niemoÅ¼noÅ›ci speÅ‚nienia dwÃ³ch pierwszych warunkÃ³w, 
+proces swatania koÅ„czy siÄ™ niepowodzeniem i jest odraczany na nastÄ™pne 10 lat. 
+NaleÅ¼y pomÃ³c radzie starszych przeprowadziÄ‡ proces swatania.
 
-#Uruchamianie programu:
+Uruchamianie programu:
 1. Sklonuj repozytorium i pobierz cmake(co najmniej wersja 3.7.2).
-2. W folderze z pobranym repozytorium wywo³aj komendy:
+2. W folderze z pobranym repozytorium wywoÅ‚aj komendy:
 	cmake ./
 	make
-3. Nastêpnie aby uruchomiæ program nale¿y wpisaæ:
+3. NastÄ™pnie aby uruchomiÄ‡ program naleÅ¼y wpisaÄ‡:
 	./AAL
 
-#Dzia³anie programu:
-Algorytm mo¿na uruchomiæ w trzech trybach. Po uruchamieniu programu u¿ytkownik zostanie
-poproszony o wybór jednego z trzech trybów wykonania:
-	1.wg danych dostarczonych ze strumienia wejœciowego (standardowego lub pliku) dla sekwencji 
-	konkretnych problemów; ten tryb pozwala testowaæ poprawnoœci dla ma³ych instancji
-	2.wg  danych  generowanych  automatycznie(losowo)z ewentualn¹  parametryzacj¹
-	generacji okreœlan¹ przezu¿ytkownik; ten tryb tak¿e s³u¿y do testowania poprawnoœci  
-	3.wykonanie z generacj¹ danych, pomiarem czasu i prezentacj¹ wyników pomiarów
+DziaÅ‚anie programu:
+Algorytm moÅ¼na uruchomiÄ‡ w trzech trybach. Po uruchamieniu programu uÅ¼ytkownik zostanie
+poproszony o wybÃ³r jednego z trzech trybÃ³w wykonania:
+	1.wg danych dostarczonych ze strumienia wejÅ›ciowego (standardowego lub pliku) dla sekwencji 
+	konkretnych problemÃ³w; ten tryb pozwala testowaÄ‡ poprawnoÅ›ci dla maÅ‚ych instancji
+	2.wg  danych  generowanych  automatycznie(losowo)z ewentualnÄ…  parametryzacjÄ…
+	generacji okreÅ›lanÄ… przezuÅ¼ytkownik; ten tryb takÅ¼e sÅ‚uÅ¼y do testowania poprawnoÅ›ci  
+	3.wykonanie z generacjÄ… danych, pomiarem czasu i prezentacjÄ… wynikÃ³w pomiarÃ³w
 
-Po zgromadzeniu danych wejœciowych stworzy graf dwudzielny, w którym jednym zbiorem wierzcho³ków
-bêdzie zbiór mê¿czyzn, a drugim zbiór kobiet. Nastêpnie za pomoc¹ algorytmu Hopcrofta-Karpa zostanie
-znalezione maksymalne skojarzenie w tym grafie, które odpowiada sparowaniu kobiet i mê¿czyzn z plemienia
-w ma³¿eñstwa.
+Po zgromadzeniu danych wejÅ›ciowych stworzy graf dwudzielny, w ktÃ³rym jednym zbiorem wierzchoÅ‚kÃ³w
+bÄ™dzie zbiÃ³r mÄ™Å¼czyzn, a drugim zbiÃ³r kobiet. NastÄ™pnie za pomocÄ… algorytmu Hopcrofta-Karpa zostanie
+znalezione maksymalne skojarzenie w tym grafie, ktÃ³re odpowiada sparowaniu kobiet i mÄ™Å¼czyzn z plemienia
+w maÅ‚Å¼eÅ„stwa.
 
-Na sam koniec zostanie zaprezentowana informacja, o tym czy uda³o siê sparowaæ wszystkich cz³onków
-plemienia, ile par uda³o sie "zeswataæ" i czasy wykonania poszczególnych czêœci algorytmu.
+Na sam koniec zostanie zaprezentowana informacja, o tym czy udaÅ‚o siÄ™ sparowaÄ‡ wszystkich czÅ‚onkÃ³w
+plemienia, ile par udaÅ‚o sie "zeswataÄ‡" i czasy wykonania poszczegÃ³lnych czÄ™Å›ci algorytmu.
 
-#Opis plików Ÿród³owych:
-	AAL.cpp, AAL.h - plik zawieraj¹cy funkcjê main programu, w której jest zawarta ca³a
-	komunikacja z u¿ytkownikiem odnoœnie wyboru trybu wykonania i prezentacja wyników
-	Graph.cpp, Graph.h - pliki zawieraj¹c¹ klasê grafu dwudzielnego i algorytmu Hopcrofta-Karpa.
-	Person.cpp - plik zawieraj¹cy klasê osoby, która zawiera pola: p³eæ, wzrost, obwód g³owy, indeks.
-	Node.cpp, Node.h, RankingTree.cpp, RankingTree.h - nieu¿ywane - pliki zawieraj¹ce implementacjê drzewa obs³uguj¹cego
-	zapytania odnoœnie rangi mê¿czyzn wzglêdem kobiet.
+Opis plikÃ³w ÅºrÃ³dÅ‚owych:
+	AAL.cpp, AAL.h - plik zawierajÄ…cy funkcjÄ™ main programu, w ktÃ³rej jest zawarta caÅ‚a
+	komunikacja z uÅ¼ytkownikiem odnoÅ›nie wyboru trybu wykonania i prezentacja wynikÃ³w
+	Graph.cpp, Graph.h - pliki zawierajÄ…cÄ… klasÄ™ grafu dwudzielnego i algorytmu Hopcrofta-Karpa.
+	Person.cpp - plik zawierajÄ…cy klasÄ™ osoby, ktÃ³ra zawiera pola: pÅ‚eÄ‡, wzrost, obwÃ³d gÅ‚owy, indeks.
+	Node.cpp, Node.h, RankingTree.cpp, RankingTree.h - nieuÅ¼ywane - pliki zawierajÄ…ce implementacjÄ™ drzewa obsÅ‚ugujÄ…cego
+	zapytania odnoÅ›nie rangi mÄ™Å¼czyzn wzglÄ™dem kobiet.
+	Params.h - plik zawierajÄ…cy klasÄ™ z parametrami losowego generowania danych
 
-#Konwencja zapisu danych w pliki
-W pierwszym trybie wykonania program odczytuje dane z plików "males.txt" i "females.txt", które znajduj¹
-siê w tym samym folderze co AAL.cpp. Ka¿da osoba jest reprezentowana w pliku zgodnie z poni¿sz¹ konwencj¹:
+Konwencja zapisu danych w pliki
+W pierwszym trybie wykonania program odczytuje dane z plikÃ³w "males.txt" i "females.txt", ktÃ³re znajdujÄ…
+siÄ™ w tym samym folderze co AAL.cpp. KaÅ¼da osoba jest reprezentowana w pliku zgodnie z poniÅ¼szÄ… konwencjÄ…:
 
 wzrost1 obwod1
 wzrost2 obwod2
 
-#Inne informacje
- - wzrost i obwód g³owy s¹ uznawane za liczby naturalne
- - wzrosty i obwody g³ów w 2. i 3. trybie wykonania s¹ losowane zgodnie z rozk³adem normalnym.
- - graf dwudzielny jest reprezentowany poprzez macierz nXn int-ów, gdzie n to liczba osób jednej p³ci.
-   Ten fakt powoduje, ¿e dla n>15000 mo¿e zabrakn¹æ pamiêci w zale¿noœci od mo¿liwoœci maszyny, na której
+Inne informacje
+ - wzrost i obwÃ³d gÅ‚owy sÄ… uznawane za liczby naturalne
+ - wzrosty i obwody gÅ‚Ã³w w 2. i 3. trybie wykonania sÄ… losowane zgodnie z rozkÅ‚adem normalnym.
+ - graf dwudzielny jest reprezentowany poprzez macierz nXn int-Ã³w, gdzie n to liczba osÃ³b jednej pÅ‚ci.
+   Ten fakt powoduje, Å¼e dla n>15000 moÅ¼e zabraknÄ…Ä‡ pamiÄ™ci w zaleÅ¼noÅ›ci od moÅ¼liwoÅ›ci maszyny, na ktÃ³rej
    jest uruchamiany program.
  
 
