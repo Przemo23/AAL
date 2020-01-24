@@ -1,8 +1,8 @@
-//Autor: Przemys³aw Bede³ek
+//Autor: PrzemysÂ³aw BedeÂ³ek
 
 //Nazwa projektu: AAL-6-LS vururuk
 #pragma once
-static const class Params {
+class Params {
 	public:
 		int maleHeight;
 		int maleWidth;
